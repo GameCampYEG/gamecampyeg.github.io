@@ -17,7 +17,7 @@ body {
   font-size: 24px;
 }
 
-.discord_link {
+.button_link {
   font-family: "Arial", serif;
   font-size: 24px;
   text-decoration: none;
@@ -54,4 +54,16 @@ body {
 
 .discord_link:active img {
   filter: invert(0);
+}
+
+
+.eventbrite_link:hover {
+  background-color: #F05537;
+  border-color: #F05537;
+  color: white;
+}
+
+.eventbrite_link:active {
+  background-color: black;
+  color: white;
 }
