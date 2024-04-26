@@ -4,17 +4,36 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  font-family: "Arial", serif;
 }
 
-#logo, #links, #blahblah {
+#logo,
+#links,
+#blahblah {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
+}
 
-  font-family: "Arial", serif;
+#logo img {
+  max-width: 100%;
+  width: auto;
+}
+
+#blahblah {
   font-size: 24px;
+  text-align: center;
+}
+
+#links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
 }
 
 .button_link {
@@ -25,7 +44,6 @@ body {
   border: 1px solid black;
   padding: 10px 20px;
   border-radius: 10px;
-  margin: 10px 0;
   display: inline-block;
   width: fit-content;
 }
@@ -56,10 +74,9 @@ body {
   filter: invert(0);
 }
 
-
 .eventbrite_link:hover {
-  background-color: #F05537;
-  border-color: #F05537;
+  background-color: #f05537;
+  border-color: #f05537;
   color: white;
 }
 
