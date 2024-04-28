@@ -37,7 +37,7 @@ body {
   margin-top: 10px;
 }
 
-.button_link {
+#links a {
   font-family: "Arial", serif;
   font-size: 24px;
   text-decoration: none;
@@ -45,43 +45,73 @@ body {
   border: 1px solid black;
   padding: 10px 20px;
   border-radius: 10px;
-  display: inline-block;
   width: fit-content;
 }
 
-.discord_link img {
-  width: 24px;
-  margin-left: 6px;
+#links a img {
   filter: invert(1);
-  diplay: inline-block;
+  width: 1em;
+  margin-right: 0.4em;
+  position: relative;
+  top: 0.12em;
 }
 
-.discord_link:hover {
-  background-color: #5865f2;
-  border-color: #5865f2;
-  color: white;
-}
-
-.discord_link:hover img {
+#links a:active img {
   filter: invert(0);
 }
 
-.discord_link:active {
+#links a:hover img {
+  filter: invert(0);
+}
+
+#links .discord:hover {
+  background-color: #5865f2;
+  border-color: #5865F2;
+  color: white;
+}
+
+#links .discord:active {
   background-color: black;
   color: white;
 }
 
-.discord_link:active img {
-  filter: invert(0);
+#links .discord img {
+  width: 1.2em
 }
 
-.eventbrite_link:hover {
+#links .eventbrite:hover {
   background-color: #f05537;
   border-color: #f05537;
   color: white;
 }
 
-.eventbrite_link:active {
+#links .eventbrite:active {
+  background-color: black;
+  color: white;
+}
+
+#links .eventbite img {
+  width: 0.8em
+}
+
+#links .linkedin:hover {
+  background-color: #0a66c2;
+  border-color: #0a66c2;
+  color: white;
+}
+
+#links .linkedin:active {
+  background-color: black;
+  color: white;
+}
+
+#links .bluesky:hover {
+  background-color: #0085ff;
+  border-color: #0085ff;
+  color: white;
+}
+
+#links .bluesky:active {
   background-color: black;
   color: white;
 }
